@@ -1,0 +1,98 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+
+  --yellow: #fedc5e;
+  --bg-black: #00001e;
+}
+
+header {
+  background-color: #fff !important;
+  width: 100% !important;
+  position: fixed !important;
+  height: 60px !important;
+  top: 0 !important;
+}
+
+.fh {
+  height: 91.7vh !important;
+}
+
+.font__yellow {
+  color: var(--yellow) !important;
+}
+
+.font__black {
+  color: var(--bg-black) !important;
+}
+
+.font__white {
+  color: #fff !important;
+}
+
+.first__slide {
+  background-image: url(./FabitsAssets/Images/Banner.png) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+
+.first__content {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 30, 0.2) 0%,
+    rgba(0, 0, 30, 0.9) 97.14%
+  ) !important;
+}
+
+.first__container {
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+
+.first__container h1 {
+  font-size: clamp(2.5rem, 3.5vw, 3.5rem) !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  opacity: 0.9 !important;
+}
+
+.first__container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.first__container .p2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+.about__fabits {
+  background-color: #fff !important;
+  background: linear-gradient(180deg, #f1dfff 0%, #ffffff 100%);
+  border-radius: 30px;
+  /* transform: rotate(90deg); */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 125% */
+  letter-spacing: -0.02em !important;
+  height: 40px;
+
+  color: #000000;
+}
