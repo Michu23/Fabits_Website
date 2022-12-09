@@ -13,6 +13,7 @@ header {
   position: fixed !important;
   height: 60px !important;
   top: 0 !important;
+  z-index: 999 !important;
 }
 
 .fh {
@@ -30,6 +31,10 @@ header {
 .font__white {
   color: #fff !important;
 }
+
+
+
+/* First slide */
 
 .first__slide {
   background-image: url(./FabitsAssets/Images/Banner.png) !important;
@@ -55,7 +60,7 @@ header {
 }
 
 .first__container h1 {
-  font-size: clamp(2.5rem, 3.5vw, 3.5rem) !important;
+  font-size: clamp(3rem, 3.5vw, 3.5rem) !important;
   font-weight: 800 !important;
   color: #fff !important;
   opacity: 0.9 !important;
@@ -83,16 +88,80 @@ header {
   background-color: #fff !important;
   background: linear-gradient(180deg, #f1dfff 0%, #ffffff 100%);
   border-radius: 30px;
-  /* transform: rotate(90deg); */
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600 !important;
   font-size: 12px;
   line-height: 20px;
-  /* or 125% */
   letter-spacing: -0.02em !important;
   height: 40px;
-
   color: #000000;
 }
+
+
+/* Second slide */
+
+
+.second__slide {
+  background-image: url(./FabitsAssets/Images/Banner.png) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+
+.second__content {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 30, 0.2) 0%,
+    rgba(0, 0, 30, 0.9) 97.14%
+  ) !important;
+}
+
+.second__container {
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+
+.second__container h1 {
+  font-size: clamp(2.5rem, 3.5vw, 3.5rem) !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  opacity: 0.9 !important;
+}
+
+.second__container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.second__container .p2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 25px;
+  padding-top: 10px;
+}
+
+
+.white__round{
+  height: 268px !important;
+  width: 265px !important;
+  border-radius: 50% 50% !important;
+  background-color: #fff !important;
+}
+
+/* Third slide */
+
+
+
+
+
+
