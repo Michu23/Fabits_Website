@@ -32,6 +32,27 @@ header {
   color: #fff !important;
 }
 
+.heading{
+  /* font-family: "Poppins"; */
+  /* line-height: 30px;
+  letter-spacing: -0.02em; */
+  line-height: 1 !important;
+  font-size: clamp(2.5rem, 3.2vw, 3.5rem) !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  opacity: 0.9 !important;
+
+}
+
+.paragraph{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1rem, 1vw, 1.5rem);
+  line-height: 30px;
+  padding-top: 10px;
+}
+
 
 
 /* First slide */
@@ -59,21 +80,14 @@ header {
   transform: translateY(-50%) !important;
 }
 
-.first__container h1 {
+/* .first__container h1 {
   font-size: clamp(3rem, 3.5vw, 3.5rem) !important;
   font-weight: 800 !important;
   color: #fff !important;
   opacity: 0.9 !important;
-}
+} */
 
-.first__container p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: clamp(1rem, 1vw, 1.5rem);
-  line-height: 30px;
-  padding-top: 10px;
-}
+
 
 .first__container .p2 {
   font-family: "Poppins";
@@ -96,6 +110,7 @@ header {
   letter-spacing: -0.02em !important;
   height: 40px;
   color: #000000;
+  margin-right: 100px !important;
 }
 
 
@@ -125,21 +140,7 @@ header {
   transform: translateY(-50%) !important;
 }
 
-.second__container h1 {
-  font-size: clamp(2.5rem, 3.5vw, 3.5rem) !important;
-  font-weight: 800 !important;
-  color: #fff !important;
-  opacity: 0.9 !important;
-}
 
-.second__container p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: clamp(1rem, 1vw, 1.5rem);
-  line-height: 30px;
-  padding-top: 10px;
-}
 
 .second__container .p2 {
   font-family: "Poppins";
@@ -152,8 +153,8 @@ header {
 
 
 .white__round{
-  height: 268px !important;
-  width: 265px !important;
+  height: 208px !important;
+  width: 205px !important;
   border-radius: 50% 50% !important;
   background-color: #fff !important;
 }
