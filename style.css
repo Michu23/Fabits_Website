@@ -53,6 +53,12 @@ header {
   padding-top: 10px;
 }
 
+.bold{
+  font-weight: 900 !important;
+}
+
+
+
 
 
 /* First slide */
@@ -64,13 +70,28 @@ header {
   background-repeat: no-repeat !important;
 }
 
-.first__content {
+.first__slide .first__content {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 30, 0.2) 0%,
     rgba(0, 0, 30, 0.9) 97.14%
   ) !important;
 }
+
+.first__slide .second__content {
+  background-image: url(./FabitsAssets/Images/49\ \(1\).png) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+.first__slide .third__content {
+  background-image: url(./FabitsAssets/Images/49\ \(1\).png) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+}
+
+
 
 .first__container {
   margin: 0 !important;
@@ -113,12 +134,42 @@ header {
   margin-right: 100px !important;
 }
 
+.about__fabits2 {
+  background-color: #fff !important;
+  background: linear-gradient(90deg, #B43AEB 0%, #4B18E5 27.08%, #AD3CEA 50.52%, #4A18E5 76.29%, #4817E5 100%);
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em !important;
+  height: 40px;
+  color: #fff;
+  margin-right: 100px !important;
+}
+
+.about__fabits3 {
+  background-color: #fff !important;
+  background: linear-gradient(180deg, #F3E3FF 0%, #FFFEFF 100%);
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em !important;
+  height: 40px;
+  color: #000;
+  margin-right: 100px !important;
+}
+
 
 /* Second slide */
 
 
 .second__slide {
-  background-image: url(./FabitsAssets/Images/Banner.png) !important;
+  background-image: url(./FabitsAssets/Images/Second__slide__mob.svg) !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -127,8 +178,8 @@ header {
 .second__content {
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 30, 0.2) 0%,
-    rgba(0, 0, 30, 0.9) 97.14%
+    rgba(0, 0, 30, 0.8) 90%,
+    rgba(0, 0, 30, 0.8) 97.14%
   ) !important;
 }
 
@@ -140,8 +191,6 @@ header {
   transform: translateY(-50%) !important;
 }
 
-
-
 .second__container .p2 {
   font-family: "Poppins";
   font-style: normal;
@@ -151,7 +200,6 @@ header {
   padding-top: 10px;
 }
 
-
 .white__round{
   height: 208px !important;
   width: 205px !important;
@@ -160,6 +208,54 @@ header {
 }
 
 /* Third slide */
+
+.max__width{
+  max-width: 400px !important;
+}
+
+.getstarted{
+  bottom: 0 !important;
+}
+
+.third__container {
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+
+.paragraph2{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(0.9rem, 1.1vw, 1.5rem);
+  line-height: 18px !important;
+  padding-top: 10px;
+}
+
+.third__content{
+  background: rgba(74, 24, 229, 0.05) !important;
+}
+
+.fourth__content{
+  background: linear-gradient(0deg, #00001E 0%, rgba(0, 0, 30, 0.9) 100%);
+}
+
+
+/* Fourth slide */
+
+.fourth__container {
+  margin: 0 !important;
+  position: absolute !important;
+  top: 50% !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+}
+
+
+
+
 
 
 
