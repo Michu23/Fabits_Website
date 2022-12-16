@@ -52,7 +52,7 @@ header {
   letter-spacing: -0.02em; */
   line-height: 1 !important;
   /* font-size: 3.4rem !important; */
-  font-size: clamp(3.4rem, 11vw, 5rem) !important;
+  font-size: clamp(3.4rem, 10vw, 5rem) !important;
   font-weight: 800 !important;
   color: #fff;
   opacity: 0.9 !important;
