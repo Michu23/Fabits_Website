@@ -70,6 +70,39 @@ header {
   font-weight: 900 !important;
 }
 
+.h-5{
+  height: 5vh !important;
+}
+
+.h-10{
+  height: 10vh !important;
+}
+
+.h-15{
+  height: 15vh !important;
+}
+
+.h-20{
+  height: 20vh !important;
+}
+
+.h-25{
+  height: 25vh !important;
+}
+
+.h-30{
+  height: 30vh !important;
+}
+
+.h-35{
+  height: 35vh !important;
+}
+
+.h-40{
+  height: 40vh !important;
+}
+
+
 
 
 
@@ -106,13 +139,13 @@ header {
 
 
 
-.first__container {
+/* .first__container {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-}
+} */
 
 /* .first__container h1 {
   font-size: clamp(3rem, 3.5vw, 3.5rem) !important;
@@ -120,6 +153,8 @@ header {
   color: #fff !important;
   opacity: 0.9 !important;
 } */
+
+
 
 
 
