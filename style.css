@@ -103,6 +103,24 @@ header {
   height: 40% !important;
 }
 
+.nav__slide__active{
+  margin-top: 15px !important;
+  height: 1px !important;
+  width: 25px !important;
+  background-color: #fff !important;
+  border-top: 3px solid #fff !important;
+}
+
+.nav__slide{
+  margin-top: 15px !important;
+  height: 1px !important;
+  width: 25px !important;
+  background-color: #fff !important;
+  border-top: 3px transparent !important;
+}
+
+
+
 
 
 
