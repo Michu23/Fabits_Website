@@ -52,7 +52,7 @@ header {
   letter-spacing: -0.02em; */
   line-height: 1 !important;
   /* font-size: 3.4rem !important; */
-  font-size: clamp(3.4rem, 10vw, 5rem) !important;
+  font-size: clamp(3.3rem, 10vw, 5rem) !important;
   font-weight: 800 !important;
   color: #fff;
   opacity: 0.9 !important;
@@ -63,7 +63,7 @@ header {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
   line-height: 30px;
   padding-top: 10px;
 }
