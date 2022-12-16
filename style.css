@@ -28,8 +28,15 @@ header {
   color: var(--bg-black) !important;
 }
 
+
+
+
 .font__white {
   color: #fff !important;
+}
+
+.indexed{
+  z-index: 111 !important;
 }
 
 .heading{
@@ -37,9 +44,9 @@ header {
   /* line-height: 30px;
   letter-spacing: -0.02em; */
   line-height: 1 !important;
-  font-size: clamp(2.5rem, 3.2vw, 3.5rem) !important;
+  font-size: clamp(3.4rem, 4vw, 5rem) !important;
   font-weight: 800 !important;
-  color: #fff !important;
+  color: #fff;
   opacity: 0.9 !important;
 
 }
@@ -48,7 +55,7 @@ header {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: clamp(1rem, 1vw, 1.5rem);
+  font-size: clamp(1.1rem, 1vw, 1.5rem);
   line-height: 30px;
   padding-top: 10px;
 }
@@ -132,6 +139,7 @@ header {
   height: 40px;
   color: #000000;
   margin-right: 100px !important;
+  bottom: 10% !important;
 }
 
 .about__fabits2 {
@@ -252,6 +260,31 @@ header {
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
 }
+
+.grad__box{
+  background: linear-gradient(270deg, rgba(105, 105, 105, 0.033) 43.81%, rgba(54, 54, 54, 0.1) 100%);
+border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em !important;
+  min-height: 100px;
+  color: #000;
+  margin-right: 100px !important;
+}
+
+model-viewer {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+
 
 
 
