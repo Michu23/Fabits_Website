@@ -2,9 +2,15 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   overflow-x: hidden !important;
+  height: -webkit-fill-available !important;
 
   --yellow: #fedc5e;
   --bg-black: #00001e;
+}
+
+
+html{
+  height: -webkit-fill-available !important;
 }
 
 header {
