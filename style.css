@@ -35,9 +35,6 @@ header {
   color: var(--bg-black) !important;
 }
 
-
-
-
 .font__white {
   color: #fff !important;
 }
@@ -47,16 +44,19 @@ header {
 }
 
 .heading{
-  /* font-family: "Poppins"; */
-  /* line-height: 30px;
-  letter-spacing: -0.02em; */
   line-height: 1 !important;
-  /* font-size: 3.4rem !important; */
-  font-size: clamp(3.3rem, 10vw, 5rem) !important;
+  font-size: clamp(3rem, 10vw, 4rem) !important;
   font-weight: 800 !important;
   color: #fff;
   opacity: 0.9 !important;
+}
 
+.heading2{
+  line-height: 1 !important;
+  font-size: clamp(2.5rem, 10vw, 4rem) !important;
+  font-weight: 800 !important;
+  color: #fff;
+  opacity: 0.9 !important;
 }
 
 .paragraph{
@@ -65,6 +65,24 @@ header {
   font-weight: 500;
   font-size: clamp(1.1rem, 2vw, 1.5rem);
   line-height: 30px;
+  padding-top: 10px;
+}
+
+.paragraph2{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1.1rem, 1.1vw, 1.5rem);
+  line-height: 22px !important;
+  padding-top: 10px;
+}
+
+.paragraph3{
+  font-family: "Poppins";
+  font-style: extra-bold !important;
+  font-weight: 1000;
+  font-size: clamp(1.1rem, 1.1vw, 1.5rem);
+  line-height: 20px !important;
   padding-top: 10px;
 }
 
@@ -120,13 +138,6 @@ header {
   border-top: 3px transparent !important;
 }
 
-
-
-
-
-
-
-
 /* First slide */
 
 .first__slide {
@@ -173,9 +184,6 @@ header {
   color: #fff !important;
   opacity: 0.9 !important;
 } */
-
-
-
 
 
 .first__container .p2 {
@@ -253,13 +261,13 @@ header {
   ) !important;
 }
 
-.second__container {
+/* .second__container {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-}
+} */
 
 .second__container .p2 {
   font-family: "Poppins";
@@ -271,8 +279,10 @@ header {
 }
 
 .white__round{
-  height: 208px !important;
-  width: 205px !important;
+  max-height: 208px !important;
+  max-width: 205px !important;
+  min-height: 100px !important;
+  min-width: 100px !important;
   border-radius: 50% 50% !important;
   background-color: #fff !important;
 }
@@ -287,22 +297,15 @@ header {
   bottom: 0 !important;
 }
 
-.third__container {
+/* .third__container {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-}
+} */
 
-.paragraph2{
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: clamp(0.9rem, 1.1vw, 1.5rem);
-  line-height: 18px !important;
-  padding-top: 10px;
-}
+
 
 .third__content{
   background: rgba(74, 24, 229, 0.05) !important;
