@@ -147,6 +147,15 @@ header {
   background-repeat: no-repeat !important;
 }
 
+.first__slide2 {
+  object-fit: none !important;
+  object-position: center center !important;
+}
+
+.notz{
+  z-index: -1 !important;
+}
+
 .first__slide .first__content {
   background: linear-gradient(
     180deg,
@@ -161,11 +170,25 @@ header {
   background-position: top center !important;
   background-repeat: no-repeat !important;
 }
+
 .first__slide .third__content {
   background-image: url(./FabitsAssets/Images/49\ \(1\).png) !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
 }
 
 
