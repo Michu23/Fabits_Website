@@ -24,8 +24,12 @@ header {
 }
 
 .fh {
-  height: 100vh !important;
+  min-height: 100vh !important;
 }
+
+/* .fw{
+  width: 100% !important;
+} */
 
 .font__yellow {
   color: var(--yellow) !important;
@@ -45,7 +49,15 @@ header {
 
 .heading{
   line-height: 1 !important;
-  font-size: clamp(3rem, 10vw, 4rem) !important;
+  font-size: clamp(2.9rem, 8vw, 3.5rem) !important;
+  font-weight: 800 !important;
+  color: #fff;
+  opacity: 0.9 !important;
+}
+
+#heading{
+  line-height: 1 !important;
+  font-size: clamp(2.9rem, 8vw, 3.5rem) !important;
   font-weight: 800 !important;
   color: #fff;
   opacity: 0.9 !important;
@@ -82,6 +94,15 @@ header {
   font-style: extra-bold !important;
   font-weight: 1000;
   font-size: clamp(1.1rem, 1.1vw, 1.5rem);
+  line-height: 20px !important;
+  padding-top: 10px;
+}
+
+.paragraph5{
+  font-family: "Poppins";
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  font-size: clamp(1rem, 0.7vw, 1.5rem);
   line-height: 20px !important;
   padding-top: 10px;
 }
@@ -164,6 +185,14 @@ header {
   ) !important;
 }
 
+.grad{
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 30, 0.2) 0%,
+    rgba(0, 0, 30, 0.9) 97.14%
+  ) !important;
+}
+
 .first__slide .second__content {
   background-image: url(./FabitsAssets/Images/49\ \(1\).png) !important;
   background-size: cover !important;
@@ -191,15 +220,20 @@ header {
   width: 0%;
 }
 
+.button__width{
+  max-width: 400px !important;
+}
 
 
-/* .first__container {
+
+.desktop__container {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
+  /* left: 50% !important; */
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-} */
+}
 
 /* .first__container h1 {
   font-size: clamp(3rem, 3.5vw, 3.5rem) !important;
@@ -231,7 +265,7 @@ header {
   letter-spacing: -0.02em !important;
   height: 40px;
   color: #000000;
-  margin-right: 100px !important;
+  /* margin-right: 100px !important; */
   /* bottom: 10% !important; */
 }
 
@@ -247,7 +281,15 @@ header {
   letter-spacing: -0.02em !important;
   height: 40px;
   color: #fff;
-  margin-right: 100px !important;
+  /* margin-right: 100px !important; */
+}
+
+.grad__width{
+  max-width: 1000px !important;
+}
+
+.grad__width2{
+  max-width: 1200px !important;
 }
 
 .about__fabits3 {
@@ -262,7 +304,18 @@ header {
   letter-spacing: -0.02em !important;
   height: 40px;
   color: #000;
-  margin-right: 100px !important;
+  /* margin-right: 100px !important; */
+}
+
+
+
+li{
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+a{
+  text-decoration: none !important;
 }
 
 
@@ -276,6 +329,27 @@ header {
   background-repeat: no-repeat !important;
 }
 
+.fhh{
+  height: 100vh !important;
+}
+
+.giftbox{
+  max-width: 150px !important;
+  max-height: 150px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+.giftboxmain{
+  max-width: 200px !important;
+  max-height: 200px !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+}
+
+
+
+
+
 .second__content {
   background: linear-gradient(
     180deg,
@@ -284,13 +358,13 @@ header {
   ) !important;
 }
 
-/* .second__container {
+.second__container {
   margin: 0 !important;
   position: absolute !important;
   top: 50% !important;
   -ms-transform: translateY(-50%) !important;
   transform: translateY(-50%) !important;
-} */
+}
 
 .second__container .p2 {
   font-family: "Poppins";
@@ -302,18 +376,18 @@ header {
 }
 
 .white__round{
-  max-height: 208px !important;
-  max-width: 205px !important;
+  max-height: 188px !important;
+  max-width: 245px !important;
   min-height: 100px !important;
-  min-width: 100px !important;
+  min-width: 140px !important;
   border-radius: 50% 50% !important;
-  background-color: #fff !important;
+  /* background-color: #fff !important;  */
 }
 
 /* Third slide */
 
 .max__width{
-  max-width: 400px !important;
+  max-width: 300px !important;
 }
 
 .getstarted{
@@ -338,6 +412,15 @@ header {
   background: linear-gradient(0deg, #00001E 0%, rgba(0, 0, 30, 0.9) 100%);
 }
 
+.contact__content{
+  background: linear-gradient(180deg, rgba(0, 0, 30, 0.8) 0%, rgba(0, 0, 30, 0.8) 100%);
+mix-blend-mode: normal;
+}
+
+.link__content{
+  background-color: #E3E3E3   !important;
+}
+
 
 /* Fourth slide */
 
@@ -350,17 +433,30 @@ header {
 }
 
 .grad__box{
-  background: linear-gradient(270deg, rgba(105, 105, 105, 0.033) 43.81%, rgba(54, 54, 54, 0.1) 100%);
-border-radius: 10px;
+  background: linear-gradient(270deg, rgba(105, 105, 105, 0.033) 23.81%, rgba(54, 54, 54, 0.06) 100%);
+  border-radius: 10px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500 !important;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: -0.02em !important;
-  min-height: 100px;
+  min-height: 120px;
   color: #000;
-  margin-right: 100px !important;
+  /* margin-right: 100px !important; */
+}
+
+.grad__box2{
+  background: linear-gradient(90deg, rgba(105, 105, 105, 0.033) 23.81%, rgba(54, 54, 54, 0.06) 100%);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.02em !important;
+  min-height: 120px;
+  color: #000;
 }
 
 model-viewer {
@@ -372,6 +468,25 @@ model-viewer {
   border: none;
 }
 
+@media (min-width: 768px) {
+  .display__mobile {
+    display: none !important;
+  }
+
+  .display__desktop {
+    display: block !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .display__mobile {
+    display: block !important;
+  }
+
+  .display__desktop {
+    display: none !important;
+  }
+}
 
 
 
