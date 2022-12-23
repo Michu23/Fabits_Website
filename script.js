@@ -253,7 +253,7 @@ gsap.from(".g3", {
 gsap.from(".handimg", {
     scrollTrigger: {
         trigger: ".hand__section__dd",
-        markers: true,
+        // markers: true,
         scrub: 1,
         start: "top center",
         end: "bottom bottom",
@@ -267,7 +267,7 @@ gsap.from(".handimg", {
 gsap.from(".handp", {
     scrollTrigger: {
         trigger: ".hand__section__dd",
-        markers: true,
+        // markers: true,
         scrub: 1,
         start: "top center",
         end: "bottom bottom",
@@ -280,7 +280,7 @@ gsap.from(".handp", {
 gsap.from(".handh", {
     scrollTrigger: {
         trigger: ".hand__section__dd",
-        markers: true,
+        // markers: true,
         scrub: 1,
         start: "top center",
         end: "bottom bottom",
@@ -289,6 +289,101 @@ gsap.from(".handh", {
     y: -50,
     // scale : 0,
 });
+
+
+gsap.from(".handh", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 1,
+    y: -50,
+    // scale : 0,
+});
+
+
+gsap.from(".a1", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    x: -100,
+    // scale : 0,
+});
+
+gsap.from(".a2", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    y: -100,
+    // scale : 0,
+});
+
+gsap.from(".a3", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    x: 100,
+    // scale : 0,
+});
+
+gsap.from(".a4", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    x: -100,
+    // scale : 0,
+});
+
+gsap.from(".a5", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    y: 100,
+    // scale : 0,
+});
+
+gsap.from(".a6", {
+    scrollTrigger: {
+        trigger: ".second_slide_pc",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    x: 100,
+    // scale : 0,
+});
+
+
 
 
 
