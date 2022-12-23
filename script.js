@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 
-// const tl = gsap.timeline();
+const tl = gsap.timeline();
 // const tl2 = gsap.timeline();
 // const tl3 = gsap.timeline();
 // const tl4 = gsap.timeline();
@@ -12,17 +12,32 @@ gsap.registerPlugin(ScrollTrigger);
 // const tl6 = gsap.timeline();
 
 
-// tl.from(".firstcontent", {
-//     x: 400,
-//     opacity: 0,
-// })
-// .to(".firstcontent", {
-//     x: 0,
-// })
-// .to(".firstcontent", {
-//     x: -400,
-//     opacity: 0,
-// })
+tl.to(".gg3", {
+    x: 100,
+    opacity: 0,
+})
+.to(".gg2", {
+    x: -100,
+    opacity: 0,
+})
+.to(".gg1", {
+    x: 100,
+    opacity: 0,
+})
+
+ScrollTrigger.create({
+    animation: tl,
+    trigger: ".thegiftboxes__mob",
+    start: "top top",
+    end: "+=2500",
+    scrub: 1,
+    pin: true,
+    pinSpacing: true,
+    markers: true,
+    anticipatePin: 1,
+});
+
+
 
 
 // tl2.from(".f__slide", {
@@ -290,6 +305,45 @@ gsap.from(".handh", {
     // scale : 0,
 });
 
+gsap.from(".handimgg", {
+    scrollTrigger: {
+        trigger: ".hand__section__mob",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    x: 300,
+    scale : 0.5,
+});
+
+
+gsap.from(".handpp", {
+    scrollTrigger: {
+        trigger: ".hand__section__mob",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 0,
+    y: 50,
+    scale : 0.7,
+});
+
+gsap.from(".handhh", {
+    scrollTrigger: {
+        trigger: ".hand__section__mob",
+        // markers: true,
+        scrub: 1,
+        start: "top center",
+        end: "bottom bottom",
+    },
+    opacity: 1,
+    y: -50,
+    // scale : 0,
+});
 
 gsap.from(".handh", {
     scrollTrigger: {
@@ -382,6 +436,9 @@ gsap.from(".a6", {
     x: 100,
     // scale : 0,
 });
+
+
+
 
 
 
