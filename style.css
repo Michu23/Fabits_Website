@@ -5,8 +5,9 @@ body {
   
   /* height: -webkit-fill-available !important; */
 
-  --yellow: #fedc5e;
+  --yellow: #4F9E7E;
   --bg-black: #00001e;
+  --bg-green: #4F9E7E;
 }
 
 
@@ -52,6 +53,10 @@ header {
   color: var(--yellow) !important;
 }
 
+.font__green {
+  color: var(--bg-green) !important;
+}
+
 .font__black {
   color: var(--bg-black) !important;
 }
@@ -67,6 +72,14 @@ header {
 .heading{
   line-height: 1 !important;
   font-size: clamp(2.9rem, 8vw, 3.5rem) !important;
+  font-weight: 800 !important;
+  color: #fff;
+  opacity: 0.9 !important;
+}
+
+.heading2{
+  line-height: 1 !important;
+  font-size: 30px !important;
   font-weight: 800 !important;
   color: #fff;
   opacity: 0.9 !important;
