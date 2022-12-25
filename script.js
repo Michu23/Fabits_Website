@@ -2,13 +2,60 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Path: script.js
 
+
+
+
+const tl2 = gsap.timeline();
+
+tl2
+    .from(".s11", {
+    x: 100,
+    opacity: 0,
+    })
+  .to(".s11", {
+    x: 100,
+    opacity: 0,
+  })
+    .from(".s22", {
+    x: -100,
+    opacity: 0,
+    })
+  .to(".s22", {
+    x: 0,
+    opacity: 1,
+  })
+    .to(".s22", {
+    x: -100,
+    opacity: 0,
+    })
+    .from(".s33", {
+    x: 100,
+    opacity: 0,
+    })
+  .to(".s33", {
+    x: -100,
+    opacity: 0,
+});
+
+ScrollTrigger.create({
+  animation: tl2,
+  trigger: ".second__slide__mob",
+  start: "top top",
+  end: "+=2500",
+  scrub: 1,
+  pin: true,
+  pinSpacing: true,
+  // markers: true,
+  anticipatePin: 1,
+});
+
 const tl = gsap.timeline();
 
-tl.to(".gg1", {
-  x: 100,
-  opacity: 0,
-})
-
+tl
+   .to(".gg3", {
+    x: 100,
+    opacity: 0,
+    })
   .from(".gg2", {
     x: -100,
     opacity: 0,
@@ -21,11 +68,11 @@ tl.to(".gg1", {
     x: -100,
     opacity: 0,
   })
-  .from(".gg3", {
+  .from(".gg1", {
     x: 100,
     opacity: 0,
   })
-  .to(".gg3", {
+  .to(".gg1", {
     x: 0,
     opacity: 1,
   });
@@ -38,9 +85,16 @@ ScrollTrigger.create({
   scrub: 1,
   pin: true,
   pinSpacing: true,
-  markers: true,
+//   markers: true,
   anticipatePin: 1,
 });
+
+
+
+
+
+
+
 
 // tl2.from(".f__slide", {
 //     x: 400,
@@ -417,3 +471,5 @@ gsap.from(".a6", {
   x: 100,
   // scale : 0,
 });
+
+
