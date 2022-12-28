@@ -473,3 +473,23 @@ gsap.from(".a6", {
 });
 
 
+const hamburger = document.querySelector(".open");
+const navs = document.querySelector(".navs");
+const header = document.querySelector(".headertag");
+const close = document.querySelector(".close");
+
+hamburger.addEventListener("click", () => {
+  navs.classList.toggle("d-none");
+  header.classList.toggle("bgg");
+  hamburger.classList.toggle("d-none");
+  close.classList.toggle("d-none");
+});
+
+close.addEventListener("click", () => {
+  navs.classList.toggle("d-none");
+  header.classList.toggle("bgg");
+  hamburger.classList.toggle("d-none");
+  close.classList.toggle("d-none");
+});
+
+

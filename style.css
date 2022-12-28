@@ -5,7 +5,7 @@ body {
 
   /* height: -webkit-fill-available !important; */
 
-  --yellow: #fedc5e;
+  --yellow: #4f9e7e;
   --bg-black: #00001e;
   --bg-green: #4f9e7e;
 }
@@ -216,7 +216,7 @@ header {
 /* First slide */
 
 .first__slide {
-  background-image: url(./FabitsAssets/Images/Banner.png) !important;
+  background-image: url(./FabitsAssets/Images/calm-businesswoman-relaxing-with-breath-gymnastics.jpg) !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -232,10 +232,15 @@ header {
 }
 
 .first__slide .first__content {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(0, 0, 30, 0.2) 0%,
     rgba(0, 0, 30, 0.9) 97.14%
+  ) !important; */
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 30, 0.2) 0%,
+    rgba(79, 158, 126, 0.3) 97.14%
   ) !important;
 }
 
@@ -247,15 +252,15 @@ header {
   ) !important;
 }
 
-.first__slide .second__content {
-  /* background-image: url(./FabitsAssets/Images/49\\(1\).png) !important; */
+.second__content {
+  background-image: url(./FabitsAssets/Images/49.png) !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
 }
 
-.first__slide .third__content {
-  /* background-image: url(./FabitsAssets/Images/49\\(1\).png) !important; */
+.third__content {
+  background-image: url(./FabitsAssets/Images/49.png) !important;
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -423,11 +428,15 @@ a {
 }
 
 .second__content {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(0, 0, 30, 0.8) 90%,
     rgba(0, 0, 30, 0.8) 97.14%
-  ) !important;
+  ) !important; */
+    background-image: url(./FabitsAssets/Images/calm-businesswoman-relaxing-with-breath-gymnastics.jpg) !important;
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
 }
 
 .second__container {
