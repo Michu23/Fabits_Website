@@ -10,6 +10,14 @@ body {
   --bg-green: #4f9e7e;
 }
 
+.cp{
+  cursor: pointer;
+}
+
+
+
+
+
 html {
   height: -webkit-fill-available !important;
 }
@@ -77,6 +85,15 @@ header {
   font-size: clamp(2.9rem, 8vw, 3.5rem) !important;
   font-weight: 800 !important;
   color: #fff;
+  opacity: 0.9 !important;
+}
+
+.privacy h2 {
+  line-height: 1 !important;
+  font-size: 28px;
+  font-weight: 700 !important;
+  margin-top: 10px;
+  /* color: #fff; */
   opacity: 0.9 !important;
 }
 
@@ -257,6 +274,7 @@ header {
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
+  
 }
 
 .third__content {
@@ -428,12 +446,12 @@ a {
 }
 
 .second__content {
-  /* background: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(0, 0, 30, 0.8) 90%,
     rgba(0, 0, 30, 0.8) 97.14%
-  ) !important; */
-    background-image: url(./FabitsAssets/Images/calm-businesswoman-relaxing-with-breath-gymnastics.jpg) !important;
+  ) !important;
+    /* background-image: url(./FabitsAssets/Images/calm-businesswoman-relaxing-with-breath-gymnastics.jpg) !important; */
   background-size: cover !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
@@ -483,9 +501,9 @@ a {
   transform: translateY(-50%) !important;
 } */
 
-.third__content {
+/* .third__content {
   background: rgba(74, 24, 229, 0.05) !important;
-}
+} */
 
 .fourth__content {
   background: linear-gradient(0deg, #00001e 0%, rgba(0, 0, 30, 0.9) 100%);
@@ -662,6 +680,19 @@ model-viewer {
   line-height: 25px;
   padding-top: 10px !important;
   padding-bottom: 15px !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.privacy p {
+  opacity: 0.8 !important;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 25px;
+  /* padding-top: 5px !important; */
+  /* padding-bottom: 5px !important; */
   text-align: justify;
   text-justify: inter-word;
 }

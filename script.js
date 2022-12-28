@@ -477,19 +477,27 @@ const hamburger = document.querySelector(".open");
 const navs = document.querySelector(".navs");
 const header = document.querySelector(".headertag");
 const close = document.querySelector(".close");
+const pro = document.querySelector(".product__nav");
+const nav__dropdown = document.querySelector(
+  ".product__nav__dropdown"
+);
 
 hamburger.addEventListener("click", () => {
   navs.classList.toggle("d-none");
-  header.classList.toggle("bgg");
-  hamburger.classList.toggle("d-none");
+  // header.classList.toggle("bgg");
   close.classList.toggle("d-none");
+  hamburger.classList.toggle("d-none");
 });
 
 close.addEventListener("click", () => {
   navs.classList.toggle("d-none");
-  header.classList.toggle("bgg");
+  // header.classList.toggle("bgg");
   hamburger.classList.toggle("d-none");
   close.classList.toggle("d-none");
+});
+
+pro.addEventListener("click", () => {
+  nav__dropdown.classList.toggle("d-none");
 });
 
 
